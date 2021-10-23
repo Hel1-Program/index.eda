@@ -29,7 +29,7 @@ body{
     width: 100%;
     padding-left: 20px;
     padding-top: 13px;
-    padding-right: 20px;
+    padding-right: 50px;
     padding-bottom: 13px;
 
 }
@@ -82,3 +82,218 @@ body{
     border-radius: 50%;
 
 }
+.slyde {
+    position: relative;
+   border-radius: 20px;
+   overflow: hidden;
+   min-height: 400px;
+   display: flex;
+   align-items: center;
+   padding: 100px;
+}
+.slyde-text-light{
+    background-color: grey;
+    color: white;
+}
+.slyde-content{
+    max-width: 400px;
+    position: relative;
+}
+.slyde-title{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+}
+.slyde-text{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.button-primary{
+    background: #F47322;
+    color: #fff;
+}
+.button-defauld{
+    background-color: #fff;
+    color: #5F5F61;
+
+}
+.button{
+    border-radius: 25px;
+    padding: 12px 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+ }
+ .slyde-sumeer{
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-image: url('../img/sumeer.png');
+ }
+ .slyde::before{
+     content:'';
+     position:absolute;
+     right: 0;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+     background:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+ }
+ .promo{
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ .card{
+    border-radius: 20px;
+     padding: 32px;
+     overflow: hidden;
+     position: relative;
+     max-width: 570px;
+     min-height: 380px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between; 
+ }
+ .card::before{
+     z-index: -1;
+     content:'';
+     position:absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+ }
+ .card-text-light{
+     color: #fff;
+ }
+ .card-title{
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 23px; 
+     margin-top: 4px;
+     margin-bottom: 21px;
+ }
+ .card-description{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 23px;
+     max-width: 200px;
+ }
+ .card-price{
+     display: block;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 23px;
+     margin-bottom: 8px;
+
+ }
+ .card-devilery{
+     display: block;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 23px;
+     margin-bottom: 25px;
+ }
+ .card-image{
+     position: absolute;
+     top: 0;
+     left:0;
+     width: 100%;
+     height: 100%;
+     z-index: -2;
+     object-fit: cover;
+ }
+ .promocode{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+ }
+ .cards{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    padding: 32px;
+    max-width: 570px;
+    width: 100%;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px; 
+ }
+ .cards::before{
+     z-index: -1;
+     content:'';
+     position:absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+ }
+ .cards-text-light{
+     color:#fff;
+ }
+ .cards-title{
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 23px; 
+     margin-top: 4px;
+     margin-bottom: 21px;
+ }
+ .cards-description{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 23px;
+     max-width: 200px;
+ }
+ .cards-price{
+     display: block;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 23px;
+     margin-bottom: 8px;
+
+ }
+ .cards-devilery{
+     display: block;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 23px;
+     margin-bottom: 25px;
+ }
+ .cards-image{
+     position: absolute;
+     top: 0;
+     left:0;
+     width: 100%;
+     height: 100%;
+     z-index: -2;
+     object-fit: cover;
+ }
+ .buttons{
+    border-radius: 25px;
+    padding: 12px 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+ }
+ .buttons-defaulds{
+    background-color: #fff;
+    color: #5F5F61;
+ }    
